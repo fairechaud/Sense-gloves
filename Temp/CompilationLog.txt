@@ -1,0 +1,56 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f27ee1d9813b94f4a95990823270426e
+# Starting compiling UnityEngine.UI.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b14aacbc791754e8d80cbfc2d4ab7449
+# Starting compiling UnityEditor.TestRunner.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cff41c578f0b5481caff368853e7083a
+# Starting compiling UnityEditor.UI.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2ca7ab763f67b472593771def0cfbdc2
+# Starting compiling Unity.VSCode.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-14958c06ca0284ed99892a5f69475100
+# Starting compiling Unity.VisualStudio.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-80b428e97736943e9b4727ff2fc137cf
+# Starting compiling Unity.Timeline.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-43355be5438fa4041960c1e8e35b005f
+# Starting compiling Unity.TextMeshPro.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-be22f927885c94de9afd4d71226ee854
+# Starting compiling Unity.XR.Management.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-58ce6a7df2f0945efa6ac78224eb0c22
+# Starting compiling SteamVR_Windows_EditorHelper.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0274018d4ac454e7186f0fa7d27af369
+# Starting compiling Unity.Timeline.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2741a1df65a6243899b52d8eaf5a66ed
+# Starting compiling Unity.CollabProxy.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f52fd69c520fc4db487f6cf2c0f77d4b
+# Starting compiling Unity.XR.OpenVR.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ecb3473826d2140e0bf5977075d9d53b
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b993b30ff4d2247578b1d56203db4522
+# Starting compiling Unity.XR.Management.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6cac968eff7b94365af89970d14616e2
+# Starting compiling Unity.Subsystem.Registration.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5ab2edb7954f24381ad89ffd7b260fc4
+# Starting compiling Unity.Rider.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fac7439472dd84c5f9c777893176f065
+# Starting compiling UnityEngine.SpatialTracking.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6f2b8fd0352ad4b318f34c140efd7fc5
+# Starting compiling Unity.XR.OpenVR.Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-22863985438cb4801868e90fa18e2e35
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d1d05ef8ba4984e8a9c0911e85f450f1
+# Starting compiling SteamVR.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-136cb1b8966174e1485ddb58f6e5cb58
+# Starting compiling UnityEditor.SpatialTracking.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c54b26ee3e61a44d3a7d040be6f3f34e
+# Starting compiling UnityEditor.XR.LegacyInputHelpers.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2552d0930e9a9488d9945d033c325d9e
+# Starting compiling SteamVR_Input_Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1f902104d3570496486dec5115c0b2ab
+# Starting compiling SteamVR_Actions.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f6ccd2b7f401d421cbbf8d3bf0487b94
+# Starting compiling SteamVR_Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-acc693c17b00d4a589d8c03415cb0688
+# Starting compiling Assembly-CSharp.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-de0d43727ef0b4450b3d1719ce99cac0
+# Starting compiling Assembly-CSharp-Editor.dll
+/Volumes/dev&VR/Applications/Unity/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2ff6b7f566ab64c1fbac0b6f02227841
