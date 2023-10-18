@@ -147,29 +147,6 @@ public class localPosRight : MonoBehaviour
             Debug.Log("Calibrated with current pose.");
             if(VivePose.IsValidEx(TrackerRole.Tracker1) && VivePose.IsValidEx(DeviceRole.Hmd))// && VivePose.IsValidEx(TrackerRole.Tracker2))// && VivePose.IsValidEx(TrackerRole.Tracker3))
             { 
-                // trackerLeft = VivePose.GetPoseEx(TrackerRole.Tracker3);
-                // trackerChest.rot.x = chestTrans.rot.y;
-                // trackerChest.rot.y = chestTrans.rot.z;
-                // trackerChest.rot.z = chestTrans.rot.x;
-                // trackerChest.rot.w = chestTrans.rot.w;
-                // trackerChest.rot.x = chestTrans.rot.z;
-                // trackerChest.rot.y = chestTrans.rot.x;
-                // trackerChest.rot.z = -chestTrans.rot.y;
-                // trackerChest.rot.w = chestTrans.rot.w;
-                // trackerRight.rot.x = rightTrans.rot.z;
-                // trackerRight.rot.y = rightTrans.rot.x;
-                // trackerRight.rot.z = -rightTrans.rot.y;
-                // trackerRight.rot.w = rightTrans.rot.w;
-
-                // trackerChest.rot.x = chestTrans.rot.x;
-                // trackerChest.rot.y = chestTrans.rot.z;
-                // trackerChest.rot.z = chestTrans.rot.y;
-                // trackerChest.rot.w = chestTrans.rot.w;
-                // trackerRight.rot.x = rightTrans.rot.x;
-                // trackerRight.rot.y = rightTrans.rot.z;
-                // trackerRight.rot.z = rightTrans.rot.y;
-                // trackerRight.rot.w = rightTrans.rot.w;
-                
                 initialTrackerChest = trackerChest;
                 rawInitialTrackerChest = rawTrackerChest;
                 //initialTrackerChest.rot = initialTrackerChest.rot;// * rotAxisChest;
@@ -191,34 +168,6 @@ public class localPosRight : MonoBehaviour
             //Debug.Log("TestR");
             if(initialTrackersRecorded && VivePose.IsValidEx(TrackerRole.Tracker1) && VivePose.IsValidEx(DeviceRole.Hmd))// && VivePose.IsValidEx(TrackerRole.Tracker2))// && VivePose.IsValidEx(TrackerRole.Tracker3))
             {
-                // chestTrans = VivePose.GetPoseEx(TrackerRole.Tracker1);
-                // trackerHead = VivePose.GetPoseEx(DeviceRole.Hmd);
-                // rightTrans = VivePose.GetPoseEx(TrackerRole.Tracker2);
-                // trackerLeft = VivePose.GetPoseEx(TrackerRole.Tracker3);
-                // trackerChest.rot.x = chestTrans.rot.y;
-                // trackerChest.rot.y = chestTrans.rot.z;
-                // trackerChest.rot.z = chestTrans.rot.x;
-                // trackerChest.rot.w = chestTrans.rot.w;
-
-                // trackerChest.rot.x = chestTrans.rot.z;
-                // trackerChest.rot.y = chestTrans.rot.x;
-                // trackerChest.rot.z = -chestTrans.rot.y;
-                // trackerChest.rot.w = chestTrans.rot.w;
-                // trackerRight.rot.x = rightTrans.rot.z;
-                // trackerRight.rot.y = rightTrans.rot.x;
-                // trackerRight.rot.z = -rightTrans.rot.y;
-                // trackerRight.rot.w = rightTrans.rot.w;
-
-                // trackerChest.rot.x = chestTrans.rot.x;
-                // trackerChest.rot.y = chestTrans.rot.y;
-                // trackerChest.rot.z = chestTrans.rot.z;
-                // trackerChest.rot.w = chestTrans.rot.w;
-                // trackerRight.rot.x = rightTrans.rot.x;
-                // trackerRight.rot.y = rightTrans.rot.y;
-                // trackerRight.rot.z = rightTrans.rot.z;
-                // trackerRight.rot.w = rightTrans.rot.w;
-               
-                
                 rawChest.rot = Quaternion.Inverse(rawTrackerChest.rot) * rawInitialTrackerChest.rot;// * rotAxisChest;
                 chest.rot = Quaternion.Inverse(trackerChest.rot) * initialTrackerChest.rot;// * rotAxisChest;
                 head.rot = trackerHead.rot * initialTrackerHead.rot;
@@ -230,6 +179,7 @@ public class localPosRight : MonoBehaviour
 
                 fEulerChest = rawChest.rot.eulerAngles;
                 fEulerHead = head.rot.eulerAngles;
+
                 eulerChest.x = Convert.ToInt16(fEulerChest.x);
                 eulerChest.y = Convert.ToInt16(fEulerChest.y);
                 
@@ -358,7 +308,7 @@ public class localPosRight : MonoBehaviour
             // +(m[1,0])  +"\t"   +m[1,1]     +"\t"   +(m[1,2])  +"\t"+  m[1,3]+"\n"
             // +m[2,0]     +"\t"   +(m[2,1])  +"\t"   +m[2,2]     +"\t"+  m[2,3]+"\n"
             // +m[3,0]     +"\t"   +m[3,1]     +"\t"   +m[3,2]     +"\t"+  m[3,3]+"\n");
-        }    
+            }    
                 
         }
 
